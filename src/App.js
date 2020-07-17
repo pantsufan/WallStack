@@ -6,7 +6,7 @@ import Results from './components/Results'
 function App() {
     const [state, setState] = useState({s: '', results: [], selected: {}});
 
-    const apiurl = 'https://pixabay.com/api/?key=17485016-5dc08350ad68c3777ed8ebc8b';
+    const apiurl = 'https://pixabay.com/api/?key=';
 
 
     const search = (e) => {
